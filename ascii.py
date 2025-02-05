@@ -2,7 +2,9 @@ def print_ascii_value(char):
 
     return ord(char)
 
-char = input("Enter a character: ",G) 
+char = input("Enter a character: ") 
+
+
 if len(char) == 1:  
     ascii_value = print_ascii_value(char)
     print(f"The ASCII value of '{char}' is {ascii_value}.")
